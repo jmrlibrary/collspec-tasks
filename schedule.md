@@ -7,7 +7,5 @@
 ## monthly
 
 ### New Arrivals
-
 - **15th of the month**
-- TODO: Link to documentation
-- Note: Both `New Arrivals` and `New Arrivals Digital` saved searches now available in `Create Lists`.
+- [Wiki Documentation](https://github.com/jmrlibrary/collspec-tasks/wiki/New-Arrivals-(Featured-Lists))
