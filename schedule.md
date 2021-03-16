@@ -18,3 +18,8 @@
   - Upload incoming Freading records
   - Delete inaccessible records
 
+## twice a month
+
+### item withdrawals 
+- **When:** Whenever you want, as long as it's once per fortnight.
+- [Documentation](https://github.com/jmrlibrary/collspec-tasks/wiki/item-withdrawals)
