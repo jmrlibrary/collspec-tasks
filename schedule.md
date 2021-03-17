@@ -1,5 +1,16 @@
 # tasks
 
+## irregular
+
+### loading Overdrive electronic records
+- **When** Upon receiving email from Collection Manager (weekly?)
+- Process
+  - download files locally
+  - use `Data Exchange` to load files
+  - copy into a `Review File`
+  - use `Global Update` to process the `Review File` with the proper `load profile`
+  - done!
+
 ## daily
 
 ## weekly
