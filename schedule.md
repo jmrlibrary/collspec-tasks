@@ -15,6 +15,9 @@
 
 ## weekly
 
+### suppress items that can't circulate
+- 
+
 ## monthly
 
 ### New Arrivals
