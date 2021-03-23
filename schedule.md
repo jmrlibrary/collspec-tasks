@@ -16,7 +16,17 @@
 ## weekly
 
 ### suppress items that can't circulate
-- 
+
+
+## twice a month
+
+### item withdrawals 
+- **When:** Whenever you want, as long as it's once per fortnight.
+- [Documentation](https://github.com/jmrlibrary/collspec-tasks/wiki/item-withdrawals)
+
+### baker taylor 'Continuation Backorder' and 'Cancellations' report
+- **When:** After receiving fortnightly email from Amanda Wilson <amanda.wilson@baker-taylor.com>
+- [Documentation](https://github.com/jmrlibrary/collspec-tasks/wiki/handling-'Continuation-Backorder'-and-'Cancellations'-report-from-Baker-&-Taylor)
 
 ## monthly
 
@@ -32,12 +42,16 @@
   - Upload incoming Freading records
   - Delete inaccessible records
 
-## twice a month
+### Patron Suggestion record retention policy
+- According to Record Retention policy, data pertaining to specific patron suggestions should be deleted one calendar year after the suggestion is received, assuming it has been closed.
+- This data currently exists in five places, which makes this a bit difficult:
+  - as "responses" in the google form (https://docs.google.com/forms/d/1_COTxwUK_3KYWMIDmJ4EHq119AatPGQ0krwXr2Y9m50/edit#responses)
+    - I am not sure how to delete only some of these
+  - as spreadsheet rows in the google sheet linked to the form: https://docs.google.com/spreadsheets/d/13LMPmqXba44L8PL2GhejUOGOQ5Ovs-31H65D_Yd__94/edit#gid=562490763
+    - these currently have to be manually deleted. you must select all rows with a timestamp older than a year ago, right click, and use `Delete Rows`. Merely deleting the contents will mess up the index that the form link uses and the data will start overwriting itself or leave blank rows
+  - in the `suggestions` table in the `collection` database on Scooter
+    - this data is programmatically deleted each night and statistical data retained in the `collection_schema.suggestion_archive` table in the `collection` database
+  - in any backups of the `collection` database (currently exorted daily to `/home/collspec/postgres/dumps/collection.db` and saved for a month)
+    - deleted programmatically each day if they are older than one month, using collspec's `crontab` (version controlled in another repo here)
+  - on whatever server is used to back up Scooter (because those backups are saved to their during a Scooter backup)
 
-### item withdrawals 
-- **When:** Whenever you want, as long as it's once per fortnight.
-- [Documentation](https://github.com/jmrlibrary/collspec-tasks/wiki/item-withdrawals)
-
-### baker taylor 'Continuation Backorder' and 'Cancellations' report
-- **When:** After receiving fortnightly email from Amanda Wilson <amanda.wilson@baker-taylor.com>
-- [Documentation](https://github.com/jmrlibrary/collspec-tasks/wiki/handling-'Continuation-Backorder'-and-'Cancellations'-report-from-Baker-&-Taylor)
