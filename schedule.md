@@ -16,7 +16,14 @@
 ## weekly
 
 ### suppress items that can't circulate
-
+- a list of item record numbers which can be suppressed is generated programmatically on the Staff-Portal `http://10.0.8.54/staff-portal/collection/ilsmaint/items/suppressible`. 
+- these are determined by identifying any items with `icode2 != 'n'` with their last known record update to their current suppressible status condition `('m', 'z', '$', 'n')` (missing, claims returned, lost and paid, billed) having occurred one year or more ago. this is double-checked against circulation within the last year (in a separate search to change item status condition for items that have been circulating but have a status code indicating otherwise) . 
+- maintainers can :
+  - copy this list
+  - create a Review File of Items from these record numbers (See wiki for documentation)
+  - examine the contents of the Review File in `Global Update` or using other `Review Files` : filter out any items which look like they are appearing erroneously
+  - suppress the records (changed `item status code` to `n`) using `Rapid Update`
+  - done.
 
 ## twice a month
 
