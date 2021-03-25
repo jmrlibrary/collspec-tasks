@@ -1,3 +1,7 @@
 - [Collection specialist various tasks and duties]https://docs.google.com/document/d/12lsJvkyXFHu-RAbRP_SJIzD2f6P0FBrUOJOO6ENBm6M/edit#
   - [Task list spreadsheet](Collection Specialist - Various tasks and duties)
 - [Routine ILS Maintenance Tasks](https://docs.google.com/spreadsheets/d/1OATXpIqh4l7SARnxLdwCT8kbEgjkIMiOdi_iPoAepyc)
+- [Human Resources notes](https://docs.google.com/document/d/17StgoYuQy4GxlKbtYfamIig_tAN6dKMZR6RvBkUucqg/edit)
+- Circulation
+  - [Holds troubleshooting](https://docs.google.com/document/d/1zKojNA2IUnYPli1NRzxoLHaID_LQPVRdZvVbFUGhI30/)
+  - [suggested changes to circulation manual](https://docs.google.com/document/d/1yurCbZIeBD2kV4yrmsCroyhRoFQIo6grSrv8stpJ2Yw)
