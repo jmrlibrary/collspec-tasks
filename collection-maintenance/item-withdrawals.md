@@ -9,7 +9,7 @@
 - After that period of status (right now, 10 days), to make sure no "take-backs" are in order, the digital records are deleted, and certain information is transferred to a local database.
 
 ## identify records to delete
-- At any given time, any items eligible for withdrawal in this process can be found on the [Withdrawals: Deletions page on the staff-portal](http://10.0.8.54:44423/starport-alpha/collection/ilsmaint/withdrawal/deletions)
+- At any given time, any items eligible for withdrawal in this process can be found on the [Withdrawals: Deletions page on the staff-portal](http://10.0.8.54/staff-portal/ilsmaint/withdrawal/deletions)
   - This page displays a list of item record keys from which one can create a `Review File` in Sierra. [Information regarding that process can be found here](https://github.com/jmrlibrary/collspec-tasks/wiki/Create-a-Review-File-from-a-list-of-item-reckeys)
 
 ## export data to retain
